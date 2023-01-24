@@ -18,6 +18,14 @@
     "lint": "eslint --max-warnings 0 . && prettier --check .",
     "lint:fix": "eslint --max-warnings 0 --fix . && prettier --write ."
   },
+  "dependencies": {
+    "@babel/generator": "^7.20.7",
+    "@babel/parser": "^7.20.13",
+    "@babel/template": "^7.20.7",
+    "@babel/types": "^7.20.7",
+    "@types/babel__generator": "^7.6.4",
+    "@types/babel__template": "^7.4.1"
+  },
   "devDependencies": {
     "@babel/cli": "^7.20.7",
     "@babel/core": "^7.20.12",

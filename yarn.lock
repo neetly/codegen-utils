@@ -367,7 +367,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/parser@npm:^7.20.13, @babel/parser@npm:^7.20.7":
+"@babel/parser@npm:^7.1.0, @babel/parser@npm:^7.20.13, @babel/parser@npm:^7.20.7":
   version: 7.20.13
   resolution: "@babel/parser@npm:7.20.13"
   bin:
@@ -1384,7 +1384,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/types@npm:^7.18.6, @babel/types@npm:^7.18.9, @babel/types@npm:^7.19.0, @babel/types@npm:^7.20.0, @babel/types@npm:^7.20.2, @babel/types@npm:^7.20.5, @babel/types@npm:^7.20.7, @babel/types@npm:^7.4.4, @babel/types@npm:^7.8.3":
+"@babel/types@npm:^7.0.0, @babel/types@npm:^7.18.6, @babel/types@npm:^7.18.9, @babel/types@npm:^7.19.0, @babel/types@npm:^7.20.0, @babel/types@npm:^7.20.2, @babel/types@npm:^7.20.5, @babel/types@npm:^7.20.7, @babel/types@npm:^7.4.4, @babel/types@npm:^7.8.3":
   version: 7.20.7
   resolution: "@babel/types@npm:7.20.7"
   dependencies:
@@ -1526,9 +1526,15 @@ __metadata:
   dependencies:
     "@babel/cli": "npm:^7.20.7"
     "@babel/core": "npm:^7.20.12"
+    "@babel/generator": "npm:^7.20.7"
+    "@babel/parser": "npm:^7.20.13"
+    "@babel/template": "npm:^7.20.7"
+    "@babel/types": "npm:^7.20.7"
     "@neetly/babel-preset": "npm:^0.2.2"
     "@neetly/eslint-config": "npm:^0.4.0"
     "@neetly/tsconfig": "npm:^0.2.0"
+    "@types/babel__generator": "npm:^7.6.4"
+    "@types/babel__template": "npm:^7.4.1"
     "@types/node": "npm:^18.11.18"
     eslint: "npm:^8.32.0"
     prettier: "npm:^2.8.3"
@@ -1645,6 +1651,25 @@ __metadata:
   version: 2.0.0
   resolution: "@tootallnate/once@npm:2.0.0"
   checksum: d9f7f2130a0a2e1ea50f3bc90b83a8b99c913bbb80d7a1706f7f4730292ef299d18443c3b57a42dfb17c6559c9085e13f751b1b6c969bcff7bee3eeaf9da4dec
+  languageName: node
+  linkType: hard
+
+"@types/babel__generator@npm:^7.6.4":
+  version: 7.6.4
+  resolution: "@types/babel__generator@npm:7.6.4"
+  dependencies:
+    "@babel/types": "npm:^7.0.0"
+  checksum: 2e66f16ed0a281f0dc050a8ef4cc9866b790cef758d8defe7c51cb045f6226d2224379fd18d7a17618619b3c6db863aff29db75eb1110c603822455e5985c27d
+  languageName: node
+  linkType: hard
+
+"@types/babel__template@npm:^7.4.1":
+  version: 7.4.1
+  resolution: "@types/babel__template@npm:7.4.1"
+  dependencies:
+    "@babel/parser": "npm:^7.1.0"
+    "@babel/types": "npm:^7.0.0"
+  checksum: ba9a947c2d7f52aae25cc4d9d1a2e47901e43f04a85b9d05603411761cd0253f983f41e34b771703328d8608150ba7292bdad4fffc20177ee42bc621f176e083
   languageName: node
   linkType: hard
 
