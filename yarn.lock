@@ -81,14 +81,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/generator@npm:^7.20.7":
-  version: 7.20.7
-  resolution: "@babel/generator@npm:7.20.7"
+"@babel/generator@npm:^7.20.14, @babel/generator@npm:^7.20.7":
+  version: 7.20.14
+  resolution: "@babel/generator@npm:7.20.14"
   dependencies:
     "@babel/types": "npm:^7.20.7"
     "@jridgewell/gen-mapping": "npm:^0.3.2"
     jsesc: "npm:^2.5.1"
-  checksum: adc0c33023c56e6715ab336f878acc270dd6bdc60d4049923afa0f5417b98b60bd6636a29fd76fe6cb75fb87301d769f0a22943703efe8cc45ce8a561b092a06
+  checksum: e57adffa98f187d6830def154af109abff1d26901d898eec9a332fbcb194df8f34e23b7820aba0e2dbc599fc90435fcbd5e538dcd5fa6f5e57c512b075f5d3e5
   languageName: node
   linkType: hard
 
@@ -1526,7 +1526,7 @@ __metadata:
   dependencies:
     "@babel/cli": "npm:^7.20.7"
     "@babel/core": "npm:^7.20.12"
-    "@babel/generator": "npm:^7.20.7"
+    "@babel/generator": "npm:^7.20.14"
     "@babel/parser": "npm:^7.20.13"
     "@babel/template": "npm:^7.20.7"
     "@babel/types": "npm:^7.20.7"

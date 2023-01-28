@@ -19,7 +19,7 @@
     "lint:fix": "eslint --max-warnings 0 --fix . && prettier --write ."
   },
   "dependencies": {
-    "@babel/generator": "^7.20.7",
+    "@babel/generator": "^7.20.14",
     "@babel/parser": "^7.20.13",
     "@babel/template": "^7.20.7",
     "@babel/types": "^7.20.7",
