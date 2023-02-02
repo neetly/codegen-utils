@@ -367,12 +367,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/parser@npm:^7.1.0, @babel/parser@npm:^7.20.13, @babel/parser@npm:^7.20.7":
-  version: 7.20.13
-  resolution: "@babel/parser@npm:7.20.13"
+"@babel/parser@npm:^7.1.0, @babel/parser@npm:^7.20.13, @babel/parser@npm:^7.20.15, @babel/parser@npm:^7.20.7":
+  version: 7.20.15
+  resolution: "@babel/parser@npm:7.20.15"
   bin:
     parser: ./bin/babel-parser.js
-  checksum: 01991ec7420dbdbf323067addd205690e7e599b1ed2c5fd0b6c2a0703b2dde4819828a5dce76e60efc07340470d8471b4122daa711536c44fa2ae0b9bd8a5732
+  checksum: 46660698145cc259591646cf4095f2608d77128c007653ba4356c755352c9d34ae45b152d269da7b0bb459cc257850d7b25aa9bf00bef25eac94205dcce0fbdc
   languageName: node
   linkType: hard
 
@@ -1527,7 +1527,7 @@ __metadata:
     "@babel/cli": "npm:^7.20.7"
     "@babel/core": "npm:^7.20.12"
     "@babel/generator": "npm:^7.20.14"
-    "@babel/parser": "npm:^7.20.13"
+    "@babel/parser": "npm:^7.20.15"
     "@babel/template": "npm:^7.20.7"
     "@babel/types": "npm:^7.20.7"
     "@neetly/babel-preset": "npm:^0.2.2"
