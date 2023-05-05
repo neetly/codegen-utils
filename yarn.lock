@@ -1577,7 +1577,7 @@ __metadata:
     "@neetly/tsconfig": "npm:^0.3.0"
     "@types/babel__generator": "npm:^7.6.4"
     "@types/babel__template": "npm:^7.4.1"
-    "@types/node": "npm:^18.16.3"
+    "@types/node": "npm:^20.0.0"
     "@types/prettier": "npm:^2.7.2"
     eslint: "npm:^8.39.0"
     prettier: "npm:^2.8.8"
@@ -1732,10 +1732,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^18.16.3":
-  version: 18.16.3
-  resolution: "@types/node@npm:18.16.3"
-  checksum: 65277e1ad412757eef6de209d998ad0fe07030d5c52b290bdab4ae4ea2c423c9933fac6aead4546bee80c80ad4248807d45f247401ee862e46b0f364a06c3966
+"@types/node@npm:^20.0.0":
+  version: 20.0.0
+  resolution: "@types/node@npm:20.0.0"
+  checksum: cfb4d53144068ac14ce85e4255a3d549f4b30e1e067bdc7e6ef14d3c309b58a8a55f7db9bb4ec699e7f1ae8ee088c00805a78da907f2d051f8150b9e1b98ade9
   languageName: node
   linkType: hard
 
