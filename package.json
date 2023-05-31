@@ -25,7 +25,7 @@
     "@babel/types": "^7.21.5",
     "@types/babel__generator": "^7.6.4",
     "@types/babel__template": "^7.4.1",
-    "@types/prettier": "^2.7.2"
+    "@types/prettier": "^2.7.3"
   },
   "peerDependencies": {
     "prettier": "*"
