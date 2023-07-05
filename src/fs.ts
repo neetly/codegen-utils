@@ -11,7 +11,7 @@ const writeFile = async (path: string, content: string) => {
   await fs.mkdir(dirname(path), { recursive: true });
   await fs.writeFile(
     path,
-    prettier.format(content, {
+    await prettier.format(content, {
       filepath: path,
       ...(await prettier.resolveConfig(path)),
     }),
