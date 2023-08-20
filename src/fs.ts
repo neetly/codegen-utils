@@ -4,7 +4,7 @@ import { dirname } from "node:path";
 import * as prettier from "prettier";
 
 const readFile = async (path: string) => {
-  return fs.readFile(path, { encoding: "utf-8" });
+  return await fs.readFile(path, { encoding: "utf8" });
 };
 
 const writeFile = async (path: string, content: string) => {
@@ -15,7 +15,7 @@ const writeFile = async (path: string, content: string) => {
       filepath: path,
       ...(await prettier.resolveConfig(path)),
     }),
-    { encoding: "utf-8" },
+    { encoding: "utf8" },
   );
 };
 
