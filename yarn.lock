@@ -1581,7 +1581,7 @@ __metadata:
     "@neetly/eslint-config": "npm:^0.7.0"
     "@neetly/tsconfig": "npm:^0.3.0"
     "@types/babel__generator": "npm:^7.6.4"
-    "@types/babel__template": "npm:^7.4.1"
+    "@types/babel__template": "npm:^7.4.2"
     "@types/node": "npm:^20.5.1"
     "@types/prettier": "npm:^2.7.3"
     eslint: "npm:^8.49.0"
@@ -1700,13 +1700,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/babel__template@npm:^7.4.1":
-  version: 7.4.1
-  resolution: "@types/babel__template@npm:7.4.1"
+"@types/babel__template@npm:^7.4.2":
+  version: 7.4.2
+  resolution: "@types/babel__template@npm:7.4.2"
   dependencies:
     "@babel/parser": "npm:^7.1.0"
     "@babel/types": "npm:^7.0.0"
-  checksum: 6f180e96c39765487f27e861d43eebed341ec7a2fc06cdf5a52c22872fae67f474ca165d149c708f4fd9d5482beb66c0a92f77411b234bb30262ed2303e50b1a
+  checksum: 487e1a2fcb382d70a6f6e8136f19979e8db6048cd2eebee153e561b5c529f45e45ee8a5422078aa66375c9c5dfc67bcd2fd3989dc8e3a4ba0149640b7dbd1c13
   languageName: node
   linkType: hard
 
