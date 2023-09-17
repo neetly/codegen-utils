@@ -19,10 +19,10 @@
     "lint:fix": "eslint --max-warnings 0 --fix . && prettier --write ."
   },
   "dependencies": {
-    "@babel/generator": "^7.22.10",
-    "@babel/parser": "^7.22.10",
-    "@babel/template": "^7.22.5",
-    "@babel/types": "^7.22.10",
+    "@babel/generator": "^7.22.15",
+    "@babel/parser": "^7.22.16",
+    "@babel/template": "^7.22.15",
+    "@babel/types": "^7.22.19",
     "@types/babel__generator": "^7.6.4",
     "@types/babel__template": "^7.4.1",
     "@types/prettier": "^2.7.3"
@@ -31,8 +31,8 @@
     "prettier": "*"
   },
   "devDependencies": {
-    "@babel/cli": "^7.22.10",
-    "@babel/core": "^7.22.10",
+    "@babel/cli": "^7.22.15",
+    "@babel/core": "^7.22.20",
     "@neetly/babel-preset": "^0.3.0",
     "@neetly/eslint-config": "^0.7.0",
     "@neetly/tsconfig": "^0.3.0",
