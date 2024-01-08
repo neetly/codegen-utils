@@ -23,7 +23,7 @@
     "@babel/parser": "^7.23.6",
     "@babel/template": "^7.22.15",
     "@babel/types": "^7.23.6",
-    "@types/babel__generator": "^7.6.5",
+    "@types/babel__generator": "^7.6.8",
     "@types/babel__template": "^7.4.2",
     "@types/prettier": "^2.7.3"
   },
