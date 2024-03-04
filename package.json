@@ -20,9 +20,9 @@
   },
   "dependencies": {
     "@babel/generator": "7.23.6",
-    "@babel/parser": "7.23.9",
-    "@babel/template": "7.23.9",
-    "@babel/types": "7.23.9",
+    "@babel/parser": "7.24.0",
+    "@babel/template": "7.24.0",
+    "@babel/types": "7.24.0",
     "@types/babel__generator": "7.6.8",
     "@types/babel__template": "7.4.4",
     "@types/prettier": "2.7.3"
@@ -32,7 +32,7 @@
   },
   "devDependencies": {
     "@babel/cli": "7.23.9",
-    "@babel/core": "7.23.9",
+    "@babel/core": "7.24.0",
     "@neetly/babel-preset": "0.3.0",
     "@neetly/eslint-config": "0.7.0",
     "@neetly/tsconfig": "0.3.0",
